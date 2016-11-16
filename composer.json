@@ -1,0 +1,15 @@
+{
+    "name":"webcxf/test",
+    "description":"just a composer test",
+    "keywords":['composer']
+    "require":{
+        "illuminate/database":"*",
+        "jenssegers/mongodb":"*",
+	"monolog/monolog":"*"
+    }
+    "autoload":{
+	"psr-4":{
+		"webcxf\\test\\":"src/"
+	}
+    }
+}
