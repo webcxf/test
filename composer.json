@@ -1,7 +1,7 @@
 {
     "name":"webcxf/test",
     "description":"just a composer test",
-    "keywords":['composer'],
+    "keywords":["composer"],
     "require":{
         "illuminate/database":"*",
         "jenssegers/mongodb":"*",
