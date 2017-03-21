@@ -5,7 +5,7 @@ class ModuleManagerTest extends PHPUnit_Framework_TestCase
 {
 	public function testConstruct(){
 		$module_manager = new ModuleManager('dev');
-		$this->assertAttributeEquals('dev', 'env', $module_manager);
+		$this->assertAttributeEquals('de', 'env', $module_manager);
 	}
 	
 	/**
