@@ -1,7 +1,8 @@
 <?php
 use webcxf\test\ModuleManager;
+use PHPUnit\Framework\TestCase;
 
-class ModuleManagerTest extends PHPUnit_Framework_TestCase
+class ModuleManagerTest extends TestCase
 {
 	public function testConstruct(){
 		$module_manager = new ModuleManager('dev');
