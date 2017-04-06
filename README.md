@@ -1,2 +1,2 @@
 # test
-learn how to use git haha!
+learn how to use git!
